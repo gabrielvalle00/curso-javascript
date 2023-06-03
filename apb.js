@@ -33,21 +33,28 @@
 //}
 
 
-var diaDaSemana = 5;
-switch (diaDaSemana) {
-        case 0: document.write("Domingo");
-        break;
-        case 1: document.write("Segunda-Feira");
-        break;
-        case 2: document.write("Terça-Feira");
-        break;
-        case 3: document.write("Quarta-Feira");
-        break;
-        case 4: document.write("Quinta-Feira");
-        break;
-        case 5: document.write("Sexta-Feira");
-        break;
-        case 6: document.write("Sabado");
-        break;
-        default : alert("Dia da semana invalido");
+// var diaDaSemana = 5;
+// switch (diaDaSemana) {
+//         case 0: document.write("Domingo");
+//         break;
+//         case 1: document.write("Segunda-Feira");
+//         break;
+//         case 2: document.write("Terça-Feira");
+//         break;
+//         case 3: document.write("Quarta-Feira");
+//         break;
+//         case 4: document.write("Quinta-Feira");
+//         break;
+//         case 5: document.write("Sexta-Feira");
+//         break;
+//         case 6: document.write("Sabado");
+//         break;
+//         default : alert("Dia da semana invalido");
+// }
+
+for (let i = 1; i < 9; i++) {
+  if(i===5) {
+    break;
+  }
+  console.log('Número total de carros: ' + i);
 }
